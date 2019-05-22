@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import { Button } from 'antd'
-import imgURL from './assets/img/wx3.png';
+import Login from './views/login'
+import Layout from './views/layout/layout'
+// import imgURL from './assets/img/wx3.png';
 function App() {
   return (
     <div className="App">
-      <img src={ imgURL } alt='dsd'/>
-      <Button type="primary">Button</Button>
+      {/* <Login></Login> */}
+      <Layout></Layout>
     </div>
   );
 }
